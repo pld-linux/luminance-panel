@@ -8,14 +8,10 @@ Group:		X11/Window Managers/Tools
 Source0:	http://dl.sourceforge.net/luminance/%{name}-%{version}.tar.gz
 # Source0-md5:	79cbf3c0180d323f433bfafb5dee13ef
 URL:		http://luminance.sourceforge.net/
-BuildRequires:	atk-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	fontconfig-devel
-BuildRequires:	freetype-devel
-BuildRequires:	glib2-devel
-BuildRequires:	gtk+-devel
-BuildRequires:	gtk+2-devel
+BuildRequires:	gdk-pixbuf-devel >= 0.18.0
+BuildRequires:	gtk+2-devel >= 2.0.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
