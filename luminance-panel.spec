@@ -1,5 +1,5 @@
-Summary:	Luminance Panel is a small panel application based on the fbpanel
-Summary(pl):	Luminance Panel to ma³y panel oparty o fbpanel
+Summary:	Luminance Panel - a small panel application based on the fbpanel
+Summary(pl):	Luminance Panel - ma³y panel oparty o fbpanel
 Name:		luminance-panel
 Version:	0.0.6
 Release:	1
@@ -10,8 +10,10 @@ Source0:	http://dl.sourceforge.net/luminance/%{name}-%{version}.tar.gz
 URL:		http://luminance.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
+# bogus configure check?
 BuildRequires:	gdk-pixbuf-devel >= 0.18.0
 BuildRequires:	gtk+2-devel >= 2.0.1
+BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
