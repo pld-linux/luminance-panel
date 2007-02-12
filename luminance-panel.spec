@@ -1,5 +1,5 @@
 Summary:	Luminance Panel - a small panel application based on the fbpanel
-Summary(pl):	Luminance Panel - ma≥y panel oparty o fbpanel
+Summary(pl.UTF-8):   Luminance Panel - ma≈Çy panel oparty o fbpanel
 Name:		luminance-panel
 Version:	0.0.6
 Release:	1
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Luminance Panel is a small panel application based on the fbpanel.
 
-%description -l pl
-Luminence Panel to ma≥y panel oparty o fbpanel.
+%description -l pl.UTF-8
+Luminence Panel to ma≈Çy panel oparty o fbpanel.
 
 %prep
 %setup -q
