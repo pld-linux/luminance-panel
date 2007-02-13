@@ -1,5 +1,5 @@
 Summary:	Luminance Panel - a small panel application based on the fbpanel
-Summary(pl.UTF-8):   Luminance Panel - mały panel oparty o fbpanel
+Summary(pl.UTF-8):	Luminance Panel - mały panel oparty o fbpanel
 Name:		luminance-panel
 Version:	0.0.6
 Release:	1
